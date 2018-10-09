@@ -1,6 +1,6 @@
 {
   "name": "atom-popup",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Small popup based on atomic",
   "main": "dist/atom-popup.js",
   "umd:main": "dist/atom-popup.umd.js",
