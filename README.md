@@ -43,7 +43,7 @@ The output files of the package are defined within `package.json`, this is thank
     <!-- size 1.7kB -->
     <script src="https://unpkg.com/atomico@0.3.4/dist/atomico.umd.js"></script>
     <!-- size 1.4kB -->
-    <script src="https://unpkg.com/atom-popup@0.0.0/dist/atom-popup.umd.js"></script>
+    <script src="https://unpkg.com/atom-popup@0.0.6/dist/atom-popup.umd.js"></script>
 </body>
 ```
 
