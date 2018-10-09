@@ -1,0 +1,39 @@
+{
+  "name": "atom-popup",
+  "version": "0.0.5",
+  "description": "Small popup based on atomic",
+  "main": "dist/atom-popup.js",
+  "umd:main": "dist/atom-popup.umd.js",
+  "iife": "dist/atom-popup.iife.js",
+  "module": "dist/atom-popup.m.js",
+  "source": "src/index.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atomicojs/atom-popup.git"
+  },
+  "scripts": {
+    "watch": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "atomico": "^0.3.2"
+  },
+  "globals": {
+    "atomico": "atomico"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "cssnano": "^4.1.0",
+    "cssthis-tag": "^0.0.1",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-cssthis": "^0.1.2",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "1.0.1",
+    "rollup-prepare": "^0.0.0"
+  }
+}
